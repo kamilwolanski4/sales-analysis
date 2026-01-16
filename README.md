@@ -199,9 +199,9 @@ W analizie wykorzystano metodę IQR (Q1/Q3 i 1.5×IQR).
 ---
 
 ##  Struktura repozytorium
-sales-analysis/
-│
-├── README.md
-├── .gitignore
-└── notebooks/
-└── 01_eda_sales.ipynb
+## Struktura repozytorium
+
+- `notebooks/01_eda_sales.ipynb` – główny notebook z analizą EDA
+- `.gitignore` – ignorowane pliki (cache, środowisko itd.)
+- `README.md` – opis projektu
+
