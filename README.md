@@ -198,10 +198,22 @@ W analizie wykorzystano metodę IQR (Q1/Q3 i 1.5×IQR).
 
 ---
 
-##  Struktura repozytorium
 ## Struktura repozytorium
 
 - `notebooks/01_eda_sales.ipynb` – główny notebook z analizą EDA
 - `.gitignore` – ignorowane pliki (cache, środowisko itd.)
 - `README.md` – opis projektu
+
+---
+
+## Notebook 
+
+- Notebook EDA: https://github.com/kamilwolanski4/sales-analysis/blob/main/notebooks/01_eda_sales.ipynb
+
+
+## Autor
+- Kamil Wolański  
+- GitHub: https://github.com/kamilwolanski4  
+- LinkedIn: https://linkedin.com/in/twojprofil
+
 
