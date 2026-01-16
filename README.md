@@ -29,6 +29,9 @@ Po połączeniu tabel otrzymano finalny dataframe:
 - **113 425 rekordów**
 - **22 kolumny**
 
+- Dane można pobrać z Kaggle:
+- https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce
+- Po pobraniu należy umieścić pliki CSV w folderze `data/`.
 ---
 
 ##  Kolumny wykorzystane w analizie
