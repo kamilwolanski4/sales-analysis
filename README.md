@@ -1,8 +1,8 @@
-# sales-analysis 🛒📊
+# sales-analysis 
 
 Projekt typu **end-to-end EDA (Exploratory Data Analysis)** wykonany na danych e-commerce (Olist) w celu zrozumienia struktury zamówień, identyfikacji braków danych, analizy rozkładów cen i kosztów dostawy oraz sprawdzenia zależności pomiędzy cechami produktów a logistyką.
 
-## 🎯 Cel projektu (EDA)
+##  Cel projektu (EDA)
 
 Celem analizy było:
 
@@ -16,7 +16,7 @@ Celem analizy było:
 
 ---
 
-## 📦 Dane
+##  Dane
 
 Projekt wykorzystuje dane Olist (brazylijski e-commerce):
 
@@ -31,7 +31,7 @@ Po połączeniu tabel otrzymano finalny dataframe:
 
 ---
 
-## 🧩 Kolumny wykorzystane w analizie
+##  Kolumny wykorzystane w analizie
 
 - `order_id` – identyfikator zamówienia  
 - `customer_id` – identyfikator klienta  
@@ -58,7 +58,7 @@ Po połączeniu tabel otrzymano finalny dataframe:
 
 ---
 
-## ❗ Brakujące dane
+##  Brakujące dane
 
 Zidentyfikowane braki danych wraz z udziałem procentowym:
 
@@ -69,12 +69,12 @@ Zidentyfikowane braki danych wraz z udziałem procentowym:
 - 2 378 braków w `product_category_name` i kolumnach powiązanych (**2.10%**)
 - 793 braki w parametrach gabarytowych produktu (**0.70%**)
 
-📌 Wnioski:  
+ Wnioski:  
 Braki w danych produktowych najczęściej dotyczyły zamówień o statusie **unavailable**, co jest dość logiczne ponieważ produkt nie był dostępny więc brak pełnych informacji.
 
 ---
 
-## 💰 Analiza cen produktów
+##  Analiza cen produktów
 
 Podstawowe statystyki cen:
 
@@ -84,12 +84,12 @@ Podstawowe statystyki cen:
 - Mediana: **75**
 - Odchylenie standardowe: **183.63**
 
-📌 Wniosek:  
+ Wniosek:  
 Średnia jest większa od mediany → rozkład jest prawostronnie skośny, a w danych występują drogie outliery.
 
 ---
 
-## 📊 Liczba sprzedanych sztuk w przedziałach cenowych
+##  Liczba sprzedanych sztuk w przedziałach cenowych
 
 Przedziały cenowe (price_group) i liczba sprzedanych produktów:
 
@@ -102,12 +102,12 @@ Przedziały cenowe (price_group) i liczba sprzedanych produktów:
 - 501–1500: **2 882**
 - 1501+: **334**
 
-📌 Wniosek:  
+ Wniosek:  
 Zdecydowana większość sprzedaży odbywa się w przedziale **21–500**.
 
 ---
 
-## 🚚 Koszt dostawy (freight_value)
+##  Koszt dostawy (freight_value)
 
 Statystyki kosztu dostawy:
 
@@ -119,7 +119,7 @@ Statystyki kosztu dostawy:
 
 ---
 
-## 🏷️ Najpopularniejsze kategorie (Top10)
+##  Najpopularniejsze kategorie (Top10)
 
 Najczęściej kupowane kategorie produktów (liczone jako liczba pozycji zamówień):
 
@@ -136,7 +136,7 @@ Najczęściej kupowane kategorie produktów (liczone jako liczba pozycji zamówi
 
 ---
 
-## ⏱️ Czas dostawy
+##  Czas dostawy
 
 Dla zamówień ze statusem **delivered** policzono czas dostawy:
 
@@ -147,28 +147,28 @@ Dla zamówień ze statusem **delivered** policzono czas dostawy:
 
 ---
 
-## 🔗 Relacje między zmiennymi (korelacje)
+##  Relacje między zmiennymi (korelacje)
 
 Wybrane zależności z macierzy korelacji:
 
 ### Korelacja nr 1
-✅ Cena i koszt dostawy mają umiarkowaną dodatnią korelację:  
+ Cena i koszt dostawy mają umiarkowaną dodatnią korelację:  
 **r = 0.41**
 
 ### Korelacja nr 2
-✅ Cena i waga produktu mają umiarkowaną dodatnią korelację:  
+ Cena i waga produktu mają umiarkowaną dodatnią korelację:  
 **r = 0.34**
 
 ### Korelacja nr 3
-✅ Najsilniej z kosztem dostawy koreluje waga produktu:  
+ Najsilniej z kosztem dostawy koreluje waga produktu:  
 **r = 0.61**
 
-📌 Wniosek:  
+ Wniosek:  
 Koszt dostawy jest bardziej zależny od cech produktu (gabaryty/waga) niż od samej ceny.
 
 ---
 
-## 🚨 Wartości odstające (outliers)
+##  Wartości odstające (outliers)
 
 W analizie wykorzystano metodę IQR (Q1/Q3 i 1.5×IQR).
 
@@ -189,7 +189,7 @@ W analizie wykorzystano metodę IQR (Q1/Q3 i 1.5×IQR).
 
 ---
 
-## 🧠 Technologie
+##  Technologie
 
 - Python
 - Pandas
@@ -198,7 +198,7 @@ W analizie wykorzystano metodę IQR (Q1/Q3 i 1.5×IQR).
 
 ---
 
-## 📁 Struktura repozytorium
+##  Struktura repozytorium
 sales-analysis/
 │
 ├── README.md
