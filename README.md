@@ -214,6 +214,6 @@ W analizie wykorzystano metodę IQR (Q1/Q3 i 1.5×IQR).
 ## Autor
 - Kamil Wolański  
 - GitHub: https://github.com/kamilwolanski4  
-- LinkedIn: https://linkedin.com/in/twojprofil
+- LinkedIn: [https://linkedin.com/in/twojprofil](https://www.linkedin.com/in/kamil-wola%C5%84ski-48b334292/)
 
 
